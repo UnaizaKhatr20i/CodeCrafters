@@ -1,4 +1,96 @@
-h1{
+h3{
     font-size: 10px;
-    color: red;
+    color: brown;
+    text-align: center;
 }
+h3{
+    font-size: 50px;
+    color: brown;
+    text-align: center;
+    font-family:Abhaya Libre;
+    font-weight: 700px;
+
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    color: gray;
+}
+.menu{
+    display: flex;
+    padding-top: 40px;
+    gap: 150px;
+}
+/* mekup */
+.menu .image-content{
+    margin-top: 20px;
+    margin-left: 72px;
+    margin-bottom: 20px;
+    
+}
+.menu .image-content img{
+    width: 550px;
+    height: 494px;
+}
+.menu .content-img{
+    margin-top: 20px;
+    margin-right: 72px;
+   display: flex;
+}
+.menu .list a{
+    color: brown;
+}
+
+/* Hair styling */
+.menu .content-img{
+    display: flex;
+    padding-left: 110px;
+}
+
+/* Nail care */
+.service-row{
+    display: flex;
+    padding-top: 40px;
+    gap: 150px;
+}
+
+.service-row .service-img{
+    margin-top: 20px;
+    margin-left: 72px;
+    margin-bottom: 20px;
+    
+}
+.service-row.service-img img{
+    width: 550px;
+    height: 494px;
+}
+.service-row .list a{
+    color: brown;
+}
+
+/* Cosmetology */
+.menu .serv-img{
+    display: flex;
+    padding-left: 110px;
+}
+.menu .list a{
+    color: brown;
+}
+
+/* SPA procedures */
+.menu.image-content{
+    display: flex;
+    padding: 110px;
+}
+.menu .list a{
+    color: brown;
+}
+
+
+
+
+
+
+
