@@ -1,96 +1,265 @@
-h3{
-    font-size: 10px;
-    color: brown;
-    text-align: center;
-}
-h3{
+.menu-list h3{
     font-size: 50px;
-    color: brown;
+    color: #6B0606;
     text-align: center;
-    font-family:Abhaya Libre;
+    font-family: Abhaya Libre;
     font-weight: 700px;
-
 }
-p{
+
+.menu-list p{
     text-align: center;
     font-size: 16px;
     font-family: Inter;
     font-weight: 400px;
     color: gray;
 }
-.menu{
+
+.price-list{
     display: flex;
     padding-top: 40px;
     gap: 150px;
 }
+
 /* mekup */
-.menu .image-content{
+.price-list {
+    display: flex;
+    padding-top: 40px;
+    gap: 150px;
+}
+.price-list .image-content{
     margin-top: 20px;
     margin-left: 72px;
     margin-bottom: 20px;
-    
+    display: flex;
+
 }
-.menu .image-content img{
+
+.price-list .image-content img{
     width: 550px;
     height: 494px;
 }
-.menu .content-img{
-    margin-top: 20px;
-    margin-right: 72px;
-   display: flex;
+
+.price-list .list a {
+    color: #6B0606;
 }
-.menu .list a{
-    color: brown;
+
+.price-list .list h3 {
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+}
+
+.price-list .list p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    color: gray;
 }
 
 /* Hair styling */
-.menu .content-img{
+.price-list .content-img {
     display: flex;
     padding-left: 110px;
 }
 
+.price-list .list {
+    margin-left: 60px;
+}
+
 /* Nail care */
-.service-row{
+.service-row {
     display: flex;
     padding-top: 40px;
     gap: 150px;
 }
 
-.service-row .service-img{
+.service-row .service-img {
     margin-top: 20px;
     margin-left: 72px;
     margin-bottom: 20px;
-    
+
 }
-.service-row.service-img img{
+
+.service-row .service-img img {
     width: 550px;
     height: 494px;
 }
-.service-row .list a{
-    color: brown;
+
+.service-row .list a {
+    color: #6B0606;
 }
 
 /* Cosmetology */
-.menu .serv-img{
+.price-list .serv-img {
     display: flex;
     padding-left: 110px;
 }
-.menu .list a{
-    color: brown;
+
+.price-list .list a {
+    color: #6B0606;
 }
 
 /* SPA procedures */
-.menu.image-content{
+.price-list .spa-img{
     display: flex;
-    padding: 110px;
+    margin-top: 20px;
+    margin-left: 72px;
+    margin-bottom: 20px;
 }
-.menu .list a{
-    color: brown;
+
+.price-list .list a {
+    color: #6B0606;
+}
+.price-list .spa-img img{
+    height: 494px;
+    width: 500px;
+}
+
+/* Beauty salon */
+.form {
+    background-color: #F3E2D5;
+    width: 100%;
+    height: 550px;
+    padding-top: 110px; 
+    padding-bottom: 110px;
+
+}
+
+.form .form-part h2 {
+    
+    color: #6B0606;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500px;
+}
+
+.form .form-part h3 {
+    font-family: Abhaya Libre;
+    font-size: 40px;
+    font-weight: 500px;
+}
+.form .form-part p{
+   color: #000000CC;
 }
 
 
+.form .white-bg {
+    display: flex;
+}
+.form .image-part img{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.form .white-bg{
+    background-color:#FFFFFF;
+    margin-left: 182px;
+    margin-right: 182px;
+    /* padding-top: 110px; 
+    padding-bottom: 110px; */
+}
 
+/* our shop */
+.shop h3 {
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+}
 
+.shop p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    color: gray;
+}
+.products ul li a{
+    color: #6B0606;
+    
+}
+.products{
+    display: flex;
+
+}
+.products ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    list-style: none;
+    margin-right: 182px;
+    margin-left: 210px;
+}
+.first-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.first-four .makeup img{
+    width: 306px;
+    height: 320px;
+}
+
+.second-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.second-four .makeup img{
+    width: 306px;
+    height: 320px;
+}
+.first-four .makeup h3{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+}
+.second-four .makeup h3{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+}
+.first-four .makeup p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #00000080;
+}
+.second-four .makeup p{
+    font-family: Inter;
+    font-weight:600 ;
+    font-size: 16px;
+    color: #00000080;
+}
+.first-four .makeup .now{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #6B0606;
+    border: #6B0606;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+.second-four .makeup .now{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #6B0606;
+    border: #6B0606;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
 
 
 
