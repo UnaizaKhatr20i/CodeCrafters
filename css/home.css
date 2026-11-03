@@ -1,3 +1,314 @@
-section h1{
-    color: blue;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+/* model part */
+.top-content h3{
+    font-family: Abhaya Libre;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6B0606;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+.top-content p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000080;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.images{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+.images .makeup{
+    background-image: url(../images/makeup.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    display: flex;
+}
+.images .makeup img{
+    margin-top: 250px;
+    margin-right: 10px;
+}
+.images .hairstyling{
+    background-image: url(../images/hairstyling.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    display: flex;
+}
+.images .hairstyling img{
+    margin-top: 250px;
+    margin-right: 10px;
+}
+.images .nailcare{
+    background-image: url(../images/nailcare.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    display: flex;
+}
+.images .nailcare img{
+    margin-top: 250px;
+    margin-right: 10px;
+}.images .cosmetology{
+    background-image: url(../images/hairstyling.png);
+    background-repeat: no-repeat;
+    width: 306px;
+    height: 320px;
+    display: flex;
+}
+.images .cosmetology img{
+    margin-top: 250px;
+    margin-right: 10px;
+}
+.images .makeup p{
+    margin-top: 250px;
+    font-family: Abhaya Libre;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.images .hairstyling p{
+    margin-top: 250px;
+    font-family: Abhaya Libre;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.images .nailcare p{
+    margin-top: 250px;
+    font-family: Abhaya Libre;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.images .cosmetology p{
+    margin-top: 250px;
+    font-family: Abhaya Libre;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+/* menu */
+.menu .image {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+.menu .image img {
+    width: 550px;
+    height: 494px;
+}
+
+.menu .list a {
+    color: #6B0606;
+    margin-top: 20px;
+}
+
+.menu .list h3 {
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+}
+
+.menu .list p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    color: gray;
+}
+.menu .list h4{
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    margin-top: 10px;
+}
+
+.testimonials{
+    background-color: #F3E2D5;
+    height: 300px;
+    width: 100%;
+  } 
+.testimonials .testimonials-top h3{
+   font-family: Abhaya Libre Medium;
+   font-weight: 700 ;
+   font-size: 50px;
+   color: #6B0606;
+   text-align: center;
+   padding-bottom: 20px;
+   padding-top: 20px;
+
+}   
+.testimonials .testimonials-top p{
+    color: #00000080;
+    text-align: center;
+}
+.testimonials .client-review {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-left: 280px;
+
+}
+.testimonials .testimonials-top .start{
+    width: 88px;
+    height: 68px;
+    padding-left: 250px;
+}
+.testimonials .testimonials-top .end{
+    width: 88px;
+    height: 68px;
+    padding-left: 670px;
+}
+.testimonials .client-review .client-images .center{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 60px;
+}
+.testimonials .client-review .client-images img{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 100px;
+}
+.testimonials .client-review .client-name h6{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    color: #6B0606;
+}
+.testimonials .client-review .client-name p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* SPA part */
+.SPA-img img{
+    width: 100%;
+    height: 695px;
+    margin-top: 250px;
+}
+.three-boxes{
+    align-items: center;
+    background-color: #F3E2D5;
+    width: 100%;
+    height: 269px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.three-boxes .box{
+    text-align: center;
+}
+.three-boxes .box img{
+    width: 48px;
+    height: 50px;
+}
+.three-boxes .box h6{
+    color: #6B0606;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.three-boxes .box p{
+    color: #00000080;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* our shop */
+.shop p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    color: #00000080;
+    margin-top: 24px;
+}
+.shop h3 {
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+    margin-top: 60px;
+}
+.any-four{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.any-four .makeup img{
+    width: 306px;
+    height: 320px;
+}
+.any-four .makeup h3{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+}
+.any-four .makeup p{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #00000080;
+}
+.any-four .makeup .now{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #6B0606;
+    border: #6B0606;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    color: #FFFFFF;
+}
+/* Instagram part */
+.Instagram h3 {
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Instagram p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: 400px;
+    color: gray;
+    margin-top: 24px;
+}
+.ten-images{
+    margin-top: 40px;
+}
+.ten-images .five{
+    display: flex;
+}
+.ten-images .five img{
+    width: 270px;
+    height: 270px;
 }
