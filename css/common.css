@@ -45,6 +45,9 @@ header .top-part p{
     font-weight: 400;
     font-weight: 16px;
 }
+.menu li a:hover{
+    color: #6B0606;
+}
 .first-section{
     margin-top: 10px;
     align-items: center;
@@ -65,4 +68,54 @@ header .top-part p{
     height: 520px;
     width: 100%;
     margin-top: 50px;
- }
+ }.background{
+    background-color: #DFBFA8;
+    width: 100%;
+    height: 380px;
+    padding-top: 16px;
+}
+.content{
+    background-image: url(../images/footer-main-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.background .content{
+    text-align: center;
+
+}
+.background .content img{
+    width: 40px;
+    height: 40px;
+    margin-top: 80px;
+}
+.background .content h6{
+    font-family: Imperial Script;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: #6B0606;
+    margin-top: 0px;
+}
+.background .content p{
+    color: #00000080;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 28px;
+}
+.background .content .icons img{
+    width: 20px;
+    height: 20px;
+    margin-top: 28px;
+}
+.background .last-content p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000080;
+}
+.background .last-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
