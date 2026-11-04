@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+.imagine h3{
+   font-family: Abhaya Libra;
+   font-weight: 700;
+   font-size: 50px;
+   text-align: center;
+   color: #6B0606;
+   margin-bottom: 50px;
+}
+.imagine h6{
+    font-family: Abhaya Libre Medium;
+   font-weight: 500 ;
+   font-size: 20px;
+   color: #6B0606;
+   margin-left: 182px;
+   margin-bottom: 30px;
+
+}
+.imagine .paragraghs{
+    display: flex;
+    margin-left: 182px;
+    margin-right: 182px;
+    padding-bottom: 20px;
+}
+
+      /* our SAP procedures */
+  .SPA{
+    background-color: #F3E2D5;
+    height: 372px;
+     width: 100%;
+  } 
+.SPA h3{
+    font-family: Abhaya Libre Medium;
+   font-weight: 700 ;
+   font-size: 50px;
+   color: #6B0606;
+   text-align: center;
+   padding-bottom: 20px;
+
+}   
+.SPA p{
+    color: #00000080;
+    text-align: center;
+}
+.SPA .video{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+     /* style */
+.forth-page{
+    margin-top: 100px;
+    display: flex;
+}
+.forth-page .image img{
+    width: 450px;
+    height: 450px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    margin-left: 158px;
+} 
+.forth-page .right-contect{
+     padding-right: 130px; 
+      padding-left: 100px;
+}
+.forth-page .right-contect h2{
+    padding-top: 118px;
+    /* margin-bottom: 337px; */
+    margin-right: 148px;
+     /* margin-left: 100px; */
+     color: #6B0606;
+     font-weight: 700;
+     font-size: 50px;
+}
+.forth-page .right-contect p{
+    width: 55%;
+     color: #000000;
+     font-weight: 30px;
+     font-size: 15px;
+     font-family: Regular;
+     padding-top: 40px;
+      margin-right: 148px;
+     margin-bottom: 40px;
+    
+}
+
+   
+.forth-page .right-contect .btn{
+    background-color:#6B0606;
+    color: #FFFFFF;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 14px;
+    padding-bottom: 14PX;
+    text-align: center;
+}
+
+/* logo */
+
+.logo{
+   display: flex;
+   background-color: #F3E2D5;
+    height: 220px;
+    justify-content: space-between;
+    text-align: center;
+
+} 
+.logo .logo-page{
+
+    padding-bottom: 39px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 39px;
+}
+
+     /* our team */
+
+.our-team h2{
+    text-align: center;
+    color: #6B0606;
+    font-family: Abhaya Libre;
+    font-size: 50px;
+    padding-bottom: 24px;
+    padding-top: 60px;
+}
+.our-team p{
+    text-align: center;
+    color: #00000080;
+    font-family: Abhaya Libre;
+    font-size: 16px;
+}
+.girls{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.girls .model-girl{
+    padding-top: 100px;
+}
+.girls .model-girl h5{
+    font-size: 28px;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-weight: 700;
+}
+.girls .model-girl p{
+    font-size: 16px;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-weight: 400;
+}
+.girls .top h5{
+    font-size: 28px;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-weight: 700;
+}
+.girls .top p{
+    font-size: 16px;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-weight: 400;
+}
+.girls .model-girl .images{
+    display: flex;
+    align-items: center;
+}
+.girls .top .images{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+.girls .model-girl .images{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    /* text-align: center; */
+}
+    /* book now */
+.booking{
+    height: 612px;
+    background-color: #F3E2D5;
+    margin-top: 80px;
+}
+.booking{
+    background-image: url(../images/glam\ beauty.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* padding-top: 120px;
+    padding-bottom: 120PX;
+    padding-left: 292px;
+    padding-right: 292px;
+    margin-bottom: 255px; */
+
+}
+.booking .text h5{
+ font-size: 40px;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-weight: 700;
+    color: #FFFFFF;
+     padding-top: 180px;
+    padding-bottom: 16PX;
+    padding-left: 292px;
+    padding-right: 292px;
+    
+}
+.booking .text h4{
+ font-size: 50px;
+    text-align: center;
+    font-family: Abhaya Libre;
+    font-weight: 700;
+    color: #FFFFFF;
+    /* margin-bottom: 255px; */
+     padding-bottom: 40PX;
+}
+.booking .now{
+background-color:#6B0606;
+    color: #FFFFFF;
+    padding-right: 41px;
+    padding-left: 41px;
+    padding-top: 14px;
+    padding-bottom: 14PX;
+    text-align: center;
+    /* margin-top: 50px; */
+}
+     /* our blog */
+.our-blog h2{
+    text-align: center;
+    color: #6B0606;
+    font-family: Abhaya Libre;
+    font-size: 50px;
+    padding-bottom: 24px;
+    padding-top: 60px;
+}
+.our-blog p{
+    text-align: center;
+    color: #00000080;
+    font-family: Abhaya Libre;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.treatment{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-evenly;
+    /* padding-left: 27px; */
+}
+.treatment .odia p{
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: inter;
+    color: #00000080;
+
+}
+.treatment .odia h4{
+    /* padding-top: 27px; */
+    padding-bottom: 12px;
+    font-family: Abhaya Libre;
+    font-size: 20px;
+    font-weight: 700;
+    /* margin-right: 40px; */
+}
+.treatment .odia .more{
+    color: #6B0606;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+}
