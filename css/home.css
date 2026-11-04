@@ -99,6 +99,56 @@
     font-weight: 700;
     color: white;
 }
+/* tabs */
+/* .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+    background-color: white;
+    color: #6B0606;
+    border: 2px solid white;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor:hover{
+    background-color: #6B0606;
+    color: #FFFFFF;
+    border: 2px solid #6B0606;
+} */
+ .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #6B0606;
+    background-color: #6B0606;
+    font-weight: normal;
+    color: #ffffff;
+}
+#tabs ul li a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+#tabs #tabs-1 p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+#tabs #tabs-2 p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+#tabs #tabs-3 p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+#tabs{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#tabs h3{
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 /* menu */
 .menu .image {
     margin-top: 20px;
@@ -201,6 +251,7 @@
     font-weight: 400;
     margin-top: 20px;
 }
+
 /* SPA part */
 .SPA-img img{
     width: 100%;
@@ -284,31 +335,26 @@
     padding-top: 10px;
     color: #FFFFFF;
 }
-/* Instagram part */
-.Instagram h3 {
+/* image-gallery */
+.image-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.image-gallery .gallery li {
+    list-style-type: none;
+}
+.image-gallery .gallery img {
+    width: 288px;
+    height: 288px;
+}
+.image-gallery h2 {
     font-family: Abhaya libre;
     font-weight: 700;
     font-size: 50px;
     color: #6B0606;
     text-align: center;
-    margin-top: 60px;
-}
-
-.Instagram p {
-    text-align: center;
-    font-size: 16px;
-    font-family: Inter;
-    font-weight: 400px;
-    color: gray;
-    margin-top: 24px;
-}
-.ten-images{
-    margin-top: 40px;
-}
-.ten-images .five{
-    display: flex;
-}
-.ten-images .five img{
-    width: 270px;
-    height: 270px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }

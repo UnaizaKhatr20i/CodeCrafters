@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet"
+        href="https://www.jqueryscript.net/demo/Responsive-Touch-Friendly-jQuery-Gallery-Lightbox-Plugin-lightGallery/lightGallery.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script
+        src="https://www.jqueryscript.net/demo/Responsive-Touch-Friendly-jQuery-Gallery-Lightbox-Plugin-lightGallery/lightGallery.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/home.css">
 </head>
@@ -63,6 +70,25 @@
             </div>
         </div>
     </section>
+    <section>
+        <div id="tabs">
+            <h3>About Our Salon</h3>
+            <ul>
+                <li><a href="#tabs-1">Skin & Facial</a></li>
+                <li><a href="#tabs-2">Hair Services</a></li>
+                <li><a href="#tabs-3">Makeup Services</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>"Give your skin the care it deserves with our relaxing facials and skincare treatments. We offer deep cleansing, hydrating facials, skin polishing, and other beauty treatments to help your skin feel fresh, smooth, and refreshed. Enjoy a relaxing experience with our professional skincare services."</p>
+            </div>
+            <div id="tabs-2">
+                <p>"Enhance your beauty with our professional hair services. From stylish haircuts and trendy hairstyles to hair coloring, hair treatments, and smoothening, we offer everything to give your hair a fresh and beautiful look. Our experts use quality products to keep your hair healthy and gorgeous."</p>
+            </div>
+            <div id="tabs-3">
+                <p>"Make every special occasion unforgettable with our professional makeup services. Whether it's bridal makeup, party makeup, or engagement makeup, our experts create beautiful looks that match your style and personality. Let us make your special moments even more memorable."</p>
+            </div>
+        </div>
+    </section>
     <!-- menu -->
     <section>
         <div class="menu">
@@ -96,8 +122,10 @@
                 </div>
                 <div class="client-name">
                     <h6>Michaela Hayden</h6>
-                    <p>Quis euismod eu eleifend tristique. Rutrum eget turpis<br>semper risus aliquam imperdiet amet. Quam
-                        bibendum <br>ut eu sodales viverra adipiscing viverra lorem elit. Scelerisque auctor suspendisse ut
+                    <p>Quis euismod eu eleifend tristique. Rutrum eget turpis<br>semper risus aliquam imperdiet amet.
+                        Quam
+                        bibendum <br>ut eu sodales viverra adipiscing viverra lorem elit. Scelerisque auctor suspendisse
+                        ut
                         et mauris dui ipsum.</p>
                 </div>
             </div>
@@ -162,28 +190,18 @@
             </div>
         </div>
     </section>
-    <!-- Instagram part -->
-    <section>
-        <div class="Instagram">
-            <h3>Follow Our Instagram</h3>
-            <p>Viverra nulla amet a ultrices massa dui. Tortor est purus morbi vitae arcu suspendisse amet.</p>
-        </div>
-        <div class="ten-images">
-            <div class="five">
-                <img src="./images/facial-img1.png" alt="facial-img1">
-                <img src="./images/hand-img1.png" alt="hand-img1">
-                <img src="./images/facial-img2.png" alt="facial-img2">
-                <img src="./images/lip-img.png" alt="lip-img">
-                <img src="./images/hand-img2.png" alt="hand-img2">
-            </div>
-            <div class="five">
-                <img src="./images/hair-img1.png" alt="hair-img1">
-                <img src="./images/eye-img.png" alt="eye-img">
-                <img src="./images/hair-img2.png" alt="hand-img2">
-                <img src="./images/facial-img3.png" alt="facial-img3">
-                <img src="./images/hair-img3.png" alt="hair-img3">
-            </div>
-        </div>
+    <section class="image-gallery">
+        <h2>Image Gallery</h2>
+        <ul id="lightGallery" class="gallery">
+            <li data-src="./images/facial-img1.png"> <a href="#"> <img src="./images/facial-img1.png"> </a></li>
+            <li data-src="./images/hand-img1.png"> <a href="#"> <img src="./images/hand-img1.png" /> </a></li>
+            <li data-src="./images/facial-img2.png"> <a href="#"> <img src="./images/facial-img2.png" /> </a></li>
+            <li data-src="./images/lip-img.png"> <a href="#"> <img src="./images/lip-img.png" /> </a></li>
+            <li data-src="./images/hand-img2.png"> <a href="#"> <img src="./images/hand-img2.png" /> </a></li>
+            <li data-src="./images/hair-img1.png"> <a href="#"> <img src="./images/hair-img1.png" /> </a></li>
+            <li data-src="./images/eye-img.png"> <a href="#"> <img src="./images/eye-img.png" /> </a></li>
+            <li data-src="./images/hair-img2.png"> <a href="#"> <img src="./images/hair-img2.png" /> </a></li>
+        </ul>
     </section>
     <footer>
         <div class="background">
@@ -194,29 +212,33 @@
                     purus morbi vitae<br>arcu suspendisse amet.</p>
                 <div class="icons">
                     <!-- Image Map Generated by http://www.image-map.net/ -->
-<img src="./images/Facebook.png" usemap="#image-map">
+                    <img src="./images/Facebook.png" usemap="#image-map">
 
-<map name="image-map">
-    <area target="_blank" alt="facebook" title="facebook" href="https://www.facebook.com/" coords="16,1,7,-1,0,3,0,10,2,15,7,19,15,17,19,9" shape="poly">
-</map>
+                    <map name="image-map">
+                        <area target="_blank" alt="facebook" title="facebook" href="https://www.facebook.com/"
+                            coords="16,1,7,-1,0,3,0,10,2,15,7,19,15,17,19,9" shape="poly">
+                    </map>
                     <!-- Image Map Generated by http://www.image-map.net/ -->
-<img src="./images/X.png" usemap="#image-map">
+                    <img src="./images/X.png" usemap="#image-map">
 
-<map name="image-map">
-    <area target="_blank" alt="x" title="x" href="https://x.com" coords="7,-1,0,5,0,9,0,13,5,17,15,18,18,10,14,1" shape="poly">
-</map>
+                    <map name="image-map">
+                        <area target="_blank" alt="x" title="x" href="https://x.com"
+                            coords="7,-1,0,5,0,9,0,13,5,17,15,18,18,10,14,1" shape="poly">
+                    </map>
                     <!-- Image Map Generated by http://www.image-map.net/ -->
-<img src="./images/Instagram.png" usemap="#image-map">
+                    <img src="./images/Instagram.png" usemap="#image-map">
 
-<map name="image-map">
-    <area target="_blank" alt="instagram" title="instagram" href="https://www.instagram.com/" coords="9,0,2,3,1,10,2,16,11,19,19,10,16,2" shape="poly">
-</map>
+                    <map name="image-map">
+                        <area target="_blank" alt="instagram" title="instagram" href="https://www.instagram.com/"
+                            coords="9,0,2,3,1,10,2,16,11,19,19,10,16,2" shape="poly">
+                    </map>
                     <!-- Image Map Generated by http://www.image-map.net/ -->
-<img src="./images/Telegram.png" usemap="#image-map">
+                    <img src="./images/Telegram.png" usemap="#image-map">
 
-<map name="image-map">
-    <area target="_blank" alt="telegram" title="telegram" href="https://web.telegram.org/" coords="9,0,1,2,1,12,5,16,14,17,18,8" shape="poly">
-</map>
+                    <map name="image-map">
+                        <area target="_blank" alt="telegram" title="telegram" href="https://web.telegram.org/"
+                            coords="9,0,1,2,1,12,5,16,14,17,18,8" shape="poly">
+                    </map>
                 </div>
             </div>
             <div class="last-content">
@@ -225,6 +247,7 @@
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
 
 </html>
