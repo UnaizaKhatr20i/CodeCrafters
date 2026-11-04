@@ -233,6 +233,35 @@
     border: #6B0606;
     margin-top: 20px;
 }
+/* accordion */
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #6B0606;
+    background: #6B0606;
+    font-weight: normal;
+    color: #ffffff;
+}
+#accordion h3{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+#accordion p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+#accordion{
+    margin-top: 50px;
+}
+.heading h3{
+    font-family: Abhaya libre;
+    font-weight: 700;
+    font-size: 50px;
+    color: #6B0606;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 /* our shop */
 .shop h3 {
     font-family: Abhaya libre;
