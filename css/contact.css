@@ -1,16 +1,19 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: 0;
 }
-.three-boxes{
+
+.three-boxes {
     display: flex;
     justify-content: space-around;
 }
-.three-boxes .box{
+
+.three-boxes .box {
     align-items: center;
 }
-.three-boxes .box h6{
+
+.three-boxes .box h6 {
     font-family: Abhaya Libre;
     font-size: 28px;
     font-weight: 700;
@@ -18,7 +21,8 @@
     margin-top: 120px;
     text-align: center;
 }
-.three-boxes .box p{
+
+.three-boxes .box p {
     font-family: Inter;
     font-size: 28px;
     font-weight: 400;
@@ -32,7 +36,7 @@
     background-color: #F3E2D5;
     width: 100%;
     height: 680px;
-    padding-top: 110px; 
+    padding-top: 110px;
     padding-bottom: 110px;
 
 }
@@ -51,58 +55,68 @@
     font-size: 40px;
     font-weight: 500px;
 }
-.form .form-part p{
-   color: #000000CC;
-   margin-top: 24px;
-   font-family: Inter;
-   font-size: 16px;
-   font-weight: 400px;
+
+.form .form-part p {
+    color: #000000CC;
+    margin-top: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400px;
 }
+
 .form .white-bg {
     display: flex;
 }
-.form .image-part img{
+
+.form .image-part img {
     margin-left: 60px;
     margin-right: 60px;
     height: 655px;
 }
-.form .white-bg{
-    background-color:#FFFFFF;
+
+.form .white-bg {
+    background-color: #FFFFFF;
     margin-left: 145px;
     /* margin-right: 182px; */
     height: 657px;
     width: 1070px;
 }
-.form .white-bg .form-part .main-form .form-inputs{
+
+.form .white-bg .form-part .main-form .form-inputs {
     display: flex;
     margin-bottom: 20px;
     justify-content: space-between;
     width: 480px;
 }
-.form .white-bg .form-part .main-form .form-inputs .input{
+
+.form .white-bg .form-part .main-form .form-inputs .input {
     width: 40%;
 }
-.form .white-bg .form-part .main-form .form-inputs .input input{
+
+.form .white-bg .form-part .main-form .form-inputs .input input {
     width: 100%;
     padding: 9px 16px;
     font-family: Abhaya Libre;
     font-size: 16px;
     font-weight: 400;
 }
-.form .white-bg .form-part .main-form{
+
+.form .white-bg .form-part .main-form {
     margin-top: 24px;
 }
 
-.form .white-bg .form-part .main-form .form-inputs .input label{
+.form .white-bg .form-part .main-form .form-inputs .input label {
     display: block;
     font-family: Abhaya Libre;
     font-size: 16px;
     font-weight: 600;
 }
-.form .white-bg .form-part .main-form .form-inputs .input input{
+
+.form .white-bg .form-part .main-form .form-inputs .input input {
     display: block;
 }
-.form .white-bg .form-part .main-form .service-input input{
+
+.form .white-bg .form-part .main-form .service-input input {
     display: block;
     width: 93%;
     padding: 9px 16px;
@@ -110,16 +124,19 @@
     font-size: 16px;
     font-weight: 400;
 }
-.form .white-bg .form-part .main-form .service-input label{
+
+.form .white-bg .form-part .main-form .service-input label {
     font-family: Abhaya Libre;
     font-size: 16px;
     font-weight: 600;
 }
-.form .white-bg .form-part .main-form .service-input{
+
+.form .white-bg .form-part .main-form .service-input {
     margin-bottom: 20px;
     width: 530px;
 }
-.form .white-bg .form-part .main-form .service-input button{
+
+.form .white-bg .form-part .main-form .service-input button {
     width: 100%;
     color: #FFFFFF;
     background-color: #6B0606;
@@ -128,30 +145,32 @@
     border: #6B0606;
     margin-top: 20px;
 }
-.Instagram h3 {
+
+label.error {
+    color: red;
+    display: block;
+}
+
+/* image-gallery */
+.image-gallery .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.image-gallery .gallery li {
+    list-style-type: none;
+}
+.image-gallery .gallery img {
+    width: 288px;
+    height: 288px;
+}
+.image-gallery h2 {
     font-family: Abhaya libre;
     font-weight: 700;
     font-size: 50px;
     color: #6B0606;
     text-align: center;
-    margin-top: 60px;
-}
-
-.Instagram p {
-    text-align: center;
-    font-size: 16px;
-    font-family: Inter;
-    font-weight: 400px;
-    color: gray;
-    margin-top: 24px;
-}
-.ten-images{
-    margin-top: 40px;
-}
-.ten-images .five{
-    display: flex;
-}
-.ten-images .five img{
-    width: 270px;
-    height: 270px;
+    margin-top: 50px;
+    margin-bottom: 20px;
 }

@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://www.jqueryscript.net/demo/Responsive-Touch-Friendly-jQuery-Gallery-Lightbox-Plugin-lightGallery/lightGallery.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Imperial+Script&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script
+        src="https://www.jqueryscript.net/demo/Responsive-Touch-Friendly-jQuery-Gallery-Lightbox-Plugin-lightGallery/lightGallery.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/contact.css">
 </head>
+
 <body>
-     <header>
+    <header>
         <div class="top-part">
             <img src="./images/Icon.png" alt="icon">
             <p>Only this month 20% discount on all services</p>
@@ -29,8 +41,8 @@
     </header>
     <section>
         <div class="first-section">
-        <h1>Beauty Salon</h1>
-        <img src="./images/map-img.png" alt="map-img">
+            <h1>Beauty Salon</h1>
+            <img src="./images/map-img.png" alt="map-img">
         </div>
     </section>
     <section>
@@ -39,7 +51,7 @@
                 <h6>Address</h6>
                 <p>19 North Road Piscataway,<br>NJ 08854</p>
             </div>
-            <div class="box"> 
+            <div class="box">
                 <h6>Email</h6>
                 <p>gamma@sbcgloba.net</p>
             </div>
@@ -60,40 +72,40 @@
                     <h3>Book appointment</h3>
                     <p>Mi senectus ac ullamcorper sollicitudin volutpat sit a velit. Purus scelerisque</p>
                     <div class="main-form">
-                        <form action="">
+                        <form id="myForm">
                             <div class="form-inputs">
                                 <div class="input">
                                     <label for="">First name</label>
-                                    <input type="text" placeholder="First name">
+                                    <input type="text" name="firstname" placeholder="First name">
                                 </div>
                                 <div class="input">
                                     <label for="">Last name</label>
-                                    <input type="text" placeholder="Last name">
+                                    <input type="text" name="lastname" placeholder="Last name">
                                 </div>
                             </div>
                             <div class="form-inputs">
                                 <div class="input">
                                     <label for="">Email</label>
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" name="email" placeholder="Email">
                                 </div>
                                 <div class="input">
                                     <label for="">Phone</label>
-                                    <input type="text" placeholder="phone">
+                                    <input type="text" name="phone" placeholder="phone">
                                 </div>
                             </div>
                             <div class="form-inputs">
                                 <div class="input">
                                     <label for="">Date</label>
-                                    <input type="text" placeholder="Date">
+                                    <input type="text" name="date" placeholder="Date">
                                 </div>
                                 <div class="input">
                                     <label for="">Time</label>
-                                    <input type="text" placeholder="Time">
+                                    <input type="text" name="time" placeholder="Time">
                                 </div>
                             </div>
                             <div class="service-input">
                                 <label for="">Service</label>
-                                <input type="text" placeholder="Service">
+                                <input type="text" name="services" placeholder="Service">
                                 <button>Send Massege</button>
                             </div>
                         </form>
@@ -101,34 +113,26 @@
                 </div>
             </div>
     </section>
-     <section>
-        <div class="Instagram">
-            <h3>Follow Our Instagram</h3>
-            <p>Viverra nulla amet a ultrices massa dui. Tortor est purus morbi vitae arcu suspendisse amet.</p>
-        </div>
-        <div class="ten-images">
-            <div class="five">
-                <img src="./images/facial-img1.png" alt="facial-img1">
-                <img src="./images/hand-img1.png" alt="hand-img1">
-                <img src="./images/facial-img2.png" alt="facial-img2">
-                <img src="./images/lip-img.png" alt="lip-img">
-                <img src="./images/hand-img2.png" alt="hand-img2">
-            </div>
-            <div class="five">
-                <img src="./images/hair-img1.png" alt="hair-img1">
-                <img src="./images/eye-img.png" alt="eye-img">
-                <img src="./images/hair-img2.png" alt="hand-img2">
-                <img src="./images/facial-img3.png" alt="facial-img3">
-                <img src="./images/hair-img3.png" alt="hair-img3">
-            </div>
-        </div>
+    <section class="image-gallery">
+        <h2>Image Gallery</h2>
+        <ul id="lightGallery" class="gallery">
+            <li data-src="./images/facial-img1.png"> <a href="#"> <img src="./images/facial-img1.png"> </a></li>
+            <li data-src="./images/hand-img1.png"> <a href="#"> <img src="./images/hand-img1.png" /> </a></li>
+            <li data-src="./images/facial-img2.png"> <a href="#"> <img src="./images/facial-img2.png" /> </a></li>
+            <li data-src="./images/lip-img.png"> <a href="#"> <img src="./images/lip-img.png" /> </a></li>
+            <li data-src="./images/hand-img2.png"> <a href="#"> <img src="./images/hand-img2.png" /> </a></li>
+            <li data-src="./images/hair-img1.png"> <a href="#"> <img src="./images/hair-img1.png" /> </a></li>
+            <li data-src="./images/eye-img.png"> <a href="#"> <img src="./images/eye-img.png" /> </a></li>
+            <li data-src="./images/hair-img2.png"> <a href="#"> <img src="./images/hair-img2.png" /> </a></li>
+        </ul>
     </section>
     <footer>
         <div class="background">
             <div class="content">
                 <img src="./images/logo.png" alt="Icon">
                 <h6>Beauty Salon</h6>
-                <p>Est tortor egestas sed feugiat elementum. Viverra nulla<br>amet a ultrices massa dui. Tortor est purus morbi vitae<br>arcu suspendisse amet.</p>
+                <p>Est tortor egestas sed feugiat elementum. Viverra nulla<br>amet a ultrices massa dui. Tortor est
+                    purus morbi vitae<br>arcu suspendisse amet.</p>
                 <div class="icons">
                     <img src="./images/Facebook.png" alt="Facebook">
                     <img src="./images/X.png" alt="X">
@@ -138,9 +142,11 @@
             </div>
             <div class="last-content">
                 <p>&copy; Copyright Real Estate 2023. Design by Figma.guru</p>
-                <img src="./images/payment-icons.png" alt="payment-icon"> 
+                <img src="./images/payment-icons.png" alt="payment-icon">
             </div>
         </div>
     </footer>
+    <script src="app.js"></script>
 </body>
+
 </html>
