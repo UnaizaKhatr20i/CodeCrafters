@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.2/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <script src="https://code.jquery.com/ui/1.14.2/jquery-ui.js"></script>
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/services.css">
@@ -148,41 +149,41 @@
                     <h3>Book appointment</h3>
                     <p>Mi senectus ac ullamcorper sollicitudin volutpat sit a velit. Purus scelerisque</p>
                     <div class="main-form">
-                        <form action="">
+                        <form id="myForm">
                             <div class="form-inputs">
                                 <div class="input">
                                     <label for="">First name</label>
-                                    <input type="text" placeholder="First name">
+                                    <input type="text" name="firstname" placeholder="First name">
                                 </div>
                                 <div class="input">
                                     <label for="">Last name</label>
-                                    <input type="text" placeholder="Last name">
+                                    <input type="text" name="lastname" placeholder="Last name">
                                 </div>
                             </div>
                             <div class="form-inputs">
                                 <div class="input">
                                     <label for="">Email</label>
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" name="email" placeholder="Email">
                                 </div>
                                 <div class="input">
                                     <label for="">Phone</label>
-                                    <input type="text" placeholder="phone">
+                                    <input type="text" name="phone" placeholder="phone">
                                 </div>
                             </div>
                             <div class="form-inputs">
                                 <div class="input">
                                     <label for="">Date</label>
-                                    <input type="text" placeholder="Date">
+                                    <input type="text" name="date" placeholder="Date">
                                 </div>
                                 <div class="input">
                                     <label for="">Time</label>
-                                    <input type="text" placeholder="Time">
+                                    <input type="text" name="time" placeholder="Time">
                                 </div>
                             </div>
                             <div class="service-input">
                                 <label for="">Service</label>
-                                <input type="text" placeholder="Service">
-                                <button>Send Massege</button>
+                                <input type="text" name="services" placeholder="Service">
+                                <button type="submit">Send Massege</button>
                             </div>
                         </form>
                     </div>
